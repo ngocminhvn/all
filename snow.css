@@ -1,12 +1,5 @@
-    /** <div class="snowflake">❅</div>
-        <div class="snowflake">❅</div>
-        <div class="snowflake">❅</div>
-        <div class="snowflake">❅</div>
-        <div class="snowflake">❅</div>
-        <div class="snowflake">❅</div>
-        <div class="snowflake">❅</div>
-        <div class="snowflake">❅</div>
-        <div class="snowflake">❅</div> **/
+/* <link href="https://cdn.jsdelivr.net/gh/ngocminhvn/all/snow.css" rel="stylesheet" type="text/css"/> */
+/* Use: <div class="snowflake">❅</div> */
        @-webkit-keyframes snowflakes-fall {
             0% {
                 top: -10%
