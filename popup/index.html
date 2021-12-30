@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document - Popup</title>
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<style type="text/css">
+#popup-giua-man-hinh .headerContainer,#popup-giua-man-hinh .bodyContainer,#popup-giua-man-hinh .footerContainer{max-width:960px;margin:0 auto;background:#FFF}
+#popup-giua-man-hinh .padding{padding:20px}
+#popup-giua-man-hinh .bodyContainer{min-height:500px}
+#popup-giua-man-hinh .popUpBannerBox{position:fixed;background:rgba(0,0,0,0.9);width:100%;height:100%;top:0;left:0;color:#FFF;z-index:999999;display:none}
+#popup-giua-man-hinh .popUpBannerInner{max-width:300px;margin:0 auto}
+#popup-giua-man-hinh .popUpBannerContent{position:fixed;top:150px}
+#popup-giua-man-hinh .closeButton{color:red;text-decoration:none;font-size:18px}
+#popup-giua-man-hinh a.closeButton{float:right}
+</style>
+<div id="popup-giua-man-hinh">
+<div class="popUpBannerBox">
+ <div class="popUpBannerInner">
+  <div class="popUpBannerContent">
+   <p><a href="#" class="closeButton">Close</a></p>
+
+    <a href="#"><img src="https://i.imgur.com/Y9LdC6o.jpg"/></a>
+
+  </div>
+ </div>
+</div>
+<script type="text/javascript">
+ function showPopUpBanner() {
+  $('.popUpBannerBox').fadeIn("2000");
+ }
+ setTimeout(showPopUpBanner, 1000);
+
+ $('.popUpBannerBox').click(function(e) {
+  if ( !$(e.target).is('.popUpBannerContent, .popUpBannerContent *' ) ) {
+   $('.popUpBannerBox').fadeOut("2000");
+   return false;
+  }
+ });
+ $('.closeButton').click(function() {
+  $('.popUpBannerBox').fadeOut("2000");
+  return false;
+ });
+</script>
+</div>
+</body>
+</html>

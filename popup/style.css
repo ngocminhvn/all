@@ -1,0 +1,8 @@
+#popup-giua-man-hinh .headerContainer,#popup-giua-man-hinh .bodyContainer,#popup-giua-man-hinh .footerContainer{max-width:960px;margin:0 auto;background:#FFF}
+#popup-giua-man-hinh .padding{padding:20px}
+#popup-giua-man-hinh .bodyContainer{min-height:500px}
+#popup-giua-man-hinh .popUpBannerBox{position:fixed;background:rgba(0,0,0,0.9);width:100%;height:100%;top:0;left:0;color:#FFF;z-index:999999;display:none}
+#popup-giua-man-hinh .popUpBannerInner{max-width:300px;margin:0 auto}
+#popup-giua-man-hinh .popUpBannerContent{position:fixed;top:150px}
+#popup-giua-man-hinh .closeButton{color:red;text-decoration:none;font-size:18px}
+#popup-giua-man-hinh a.closeButton{float:right}
