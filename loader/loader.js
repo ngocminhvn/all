@@ -31,5 +31,5 @@ function animateValue(id, start, end, duration) {
 
 // Fading Out Loadbar on Finised
 setTimeout(function(){
-  $('.pre-loader').fadeOut(400);
+  $('.pre-loader').fadeOut(500);
 }, time);
